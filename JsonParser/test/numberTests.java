@@ -1,9 +1,9 @@
 package test;
 
 import src.InvalidJSONException;
-import src.Token;
-import src.TokenType;
-import src.Tokenizer;
+import src.tokenizer.Token;
+import src.tokenizer.TokenType;
+import src.tokenizer.Tokenizer;
 
 public class numberTests {
     String[] valid = {

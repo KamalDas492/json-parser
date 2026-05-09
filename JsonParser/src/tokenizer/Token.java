@@ -1,4 +1,4 @@
-package src;
+package src.tokenizer;
 
 public class Token {
     TokenType type;

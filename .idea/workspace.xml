@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac86717a-2d59-4de8-a555-9a02f827e7f4" name="Changes" comment="" />
+    <list default="true" id="ac86717a-2d59-4de8-a555-9a02f827e7f4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonParser/src/parser/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonParser/src/tokenizer/CharStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonParser/src/tokenizer/KeywordHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonParser/src/tokenizer/NumberHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonParser/src/tokenizer/StringHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonParser/test/testParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonParser/src/JsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/JsonParser/src/JsonParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonParser/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonParser/src/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonParser/src/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/JsonParser/src/tokenizer/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonParser/src/TokenType.java" beforeDir="false" afterPath="$PROJECT_DIR$/JsonParser/src/tokenizer/TokenType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonParser/src/Tokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/JsonParser/src/tokenizer/Tokenizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonParser/test/numberTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/JsonParser/test/numberTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonParser/test/testTokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/JsonParser/test/testTokenizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/json-parser/src/JsonParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/json-parser/src/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/json-parser/src/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/json-parser/src/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/json-parser/src/Token.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/json-parser/src/TokenType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/json-parser/src/Tokenizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/json-parser/test/numberTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/json-parser/test/numberTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/json-parser/test/testTokenizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/json-parser/test/testTokenizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser.sh" beforeDir="false" afterPath="$PROJECT_DIR$/parser.sh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,11 +45,14 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="AISelfReview" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -36,13 +64,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.testParser.executor": "Run",
     "Application.testTokenizer.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "json-parser",
+    "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "//wsl.localhost/Ubuntu/home/kamal/projects/json-parser",
@@ -71,5 +101,15 @@
       <updated>1775320594994</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="src.InvalidJSONException" package="src" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
